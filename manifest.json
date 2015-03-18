@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Vivo Vantagens",
+  "description": "Extension to remove sold out tickets at tvantagens.com.br.",
+  "version": "0.0.0.1",
+
+  "permissions": [
+    "activeTab",
+    "http://*.tvantagens.com.br/"
+  ],
+
+  "background": {
+    "scripts": [
+      "main.js"
+    ],
+    "persistent": false
+  }
+
+}
